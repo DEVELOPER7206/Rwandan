@@ -1,0 +1,77 @@
+@import "common.css";
+@import "responsive.css";
+
+/*--------------------footer-start------------------*/
+footer {
+  background-color: var(--primary_color);
+}
+.footer-logo-box > p {
+  color: var(--white-color);
+}
+.footer-section {
+  padding-top: var(--padding);
+  margin-bottom: 150px;
+}
+#subscribe > input {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border: 1px solid var(--white-color);
+  background-color: transparent;
+  color: var(--white-color);
+}
+#subscribe > input::placeholder{
+  color: var(--white-color);
+}
+.subscribe-btn {
+  background-color: #3e428c;
+  border: 0;
+  outline: 0;
+  border-radius: 160px;
+  padding: 20px 35px;
+  font-size: clamp(1rem, 1.5vw, 18px);
+  font-family: var(--inter-font);
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.subscribe > h3 {
+  margin-bottom: 30px;
+}
+.footer-list > .navication {
+  display: block;
+}
+.footer-list > .navication > li {
+  margin-bottom: 10px;
+}
+.footer-list > h3 {
+  margin-bottom: 30px;
+}
+.footer-logo {
+  margin-bottom: 25px;
+}
+.footer-list > .navication > li:last-child {
+  margin-bottom: 0px;
+}
+.footer-list > .navication > li > a {
+  color: var(--white-color);
+}
+.copyright {
+  border-top: 1px solid var(--white-color);
+  padding: 20px 0px;
+}
+.footer-credit{
+    text-align: right;
+}
+.copyright-content > span, .company-name, .footer-credit > span{
+    font-size: clamp(12px, 2vw, 16px);
+    color: var(--white-color);
+    font-family: var(--poppins-font);
+}
+.subscribe{
+  display: block;
+}
+/*--------------------footer-end------------------*/
